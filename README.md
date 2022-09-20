@@ -10,13 +10,13 @@ To support Splatoon3, need to import https://github.com/tarxf/Splatoon-3-Post-Pr
 
 Folder Structure:
 
-SplaTu|
-	  |SplaTu.exe
-	  |LUFA 
-		|LUFA
-			|....
-	  |Switch-Fightstick
-		|....
+SplaTu|<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|SplaTu.exe<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|LUFA <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|LUFA<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|....<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Switch-Fightstick<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|....<br />
 		 
 In \LUFA\LUFA\Drivers\USB\Core\Device.h Line 134, update **const uint8_t wIndex** to **const uint16_t wIndex**
  
