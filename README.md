@@ -19,10 +19,11 @@ SplaTu|<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|....<br />
 		 
 In \LUFA\LUFA\Drivers\USB\Core\Device.h Line 134, update **const uint8_t wIndex** to **const uint16_t wIndex**
- 
 
-Download: https://pan.baidu.com/s/1J8UiuhLlpKFEzNDKyLvKQg?pwd=eniy 
-Download password: eniy
+
+
+Download: https://pan.baidu.com/s/1J8UiuhLlpKFEzNDKyLvKQg?pwd=eniy  <br />
+Download password: eniy <br />
  
 
 
