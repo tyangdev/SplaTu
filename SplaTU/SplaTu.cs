@@ -430,9 +430,9 @@ namespace SplaTU
         public void GenerateImageC(byte[] data)
         { 
 
-            string str_out = "#include <stdint.h>\n\nuint8_t image_data[0x12c1] = {";
+            string str_out = "#include <stdint.h>\n#include <avr/pgmspace.h>\n\nuint8_t image_data[0x12c1] PROGMEM = {";
 
-            for (int i =0; i< (320 * 120) / 8;i++)
+            for (int i =0; i< (320 * 120) / 8;i++)   
             {
                 int val = 0x00;
                  
@@ -448,7 +448,7 @@ namespace SplaTU
             }
              
 
-            str_out += "0x0};";
+            str_out += "0x0};\n";
             File.WriteAllText(@"Switch-Fightstick-master\imaget.c", str_out, Encoding.UTF8);
              
             byte[] bytes = System.IO.File.ReadAllBytes(@"Switch-Fightstick-master\imaget.c");
