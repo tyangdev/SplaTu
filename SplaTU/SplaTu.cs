@@ -27,7 +27,9 @@ namespace SplaTU
             InitDefaults();
 
 
-        } 
+        }
+
+        private const string _switchFightStickPath = @"Switch-Fightstick";
 
         private void InitDefaults()
         {
@@ -172,7 +174,7 @@ namespace SplaTU
                 startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
 
                 string path = Directory.GetCurrentDirectory();
-                path += @"\Switch-Fightstick-master"; 
+                path += @"\"+ _switchFightStickPath; 
                 startInfo.WorkingDirectory = path;
                 startInfo.FileName = "cmd.exe";
              //   startInfo.Arguments = @"/c start /wait spMake.bat ";
@@ -449,17 +451,17 @@ namespace SplaTU
              
 
             str_out += "0x0};\n";
-            File.WriteAllText(@"Switch-Fightstick-master\imaget.c", str_out, Encoding.UTF8);
+            File.WriteAllText(_switchFightStickPath+@"\imaget.c", str_out, Encoding.UTF8);
              
-            byte[] bytes = System.IO.File.ReadAllBytes(@"Switch-Fightstick-master\imaget.c");
+            byte[] bytes = System.IO.File.ReadAllBytes(_switchFightStickPath + @"\imaget.c");
 
-            System.IO.File.WriteAllBytes(@"Switch-Fightstick-master\image.c", bytes.Skip(3).ToArray());
+            System.IO.File.WriteAllBytes(_switchFightStickPath + @"\image.c", bytes.Skip(3).ToArray());
 
             try
             {
-                if (File.Exists(@"Switch-Fightstick-master\imaget.c"))
+                if (File.Exists(_switchFightStickPath + @"\imaget.c"))
                 {
-                    File.Delete(@"Switch-Fightstick-master\imaget.c");
+                    File.Delete(_switchFightStickPath + @"\imaget.c");
                 }
             }
             catch { }

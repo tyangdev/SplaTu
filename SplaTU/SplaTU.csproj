@@ -136,6 +136,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="README.md" />
     <None Include="Resources\tpp_main.png" />
     <Content Include="pencil.ico" />
     <None Include="Resources\back1.png" />

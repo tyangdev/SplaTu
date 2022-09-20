@@ -53,9 +53,9 @@
             // 
             // groupBox1
             // 
-            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.BackgroundImage = global::SplaTU.Properties.Resources.tile_P_2;
             this.groupBox1.Controls.Add(this.pbInput);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.ForeColor = System.Drawing.Color.White;
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
@@ -68,9 +68,9 @@
             // 
             // groupBox2
             // 
-            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.BackgroundImage = global::SplaTU.Properties.Resources.tile_P;
             this.groupBox2.Controls.Add(this.pbOutput2);
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.ForeColor = System.Drawing.Color.White;
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
@@ -88,36 +88,36 @@
             // 
             // menuStrip1
             // 
-            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aboutToolStripMenuItem,
             this.aboutToolStripMenuItem1});
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
             // 
             // aboutToolStripMenuItem
             // 
-            resources.ApplyResources(this.aboutToolStripMenuItem, "aboutToolStripMenuItem");
             this.aboutToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.englishToolStripMenuItem,
             this.SchineseToolStripMenuItem});
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            resources.ApplyResources(this.aboutToolStripMenuItem, "aboutToolStripMenuItem");
             // 
             // englishToolStripMenuItem
             // 
-            resources.ApplyResources(this.englishToolStripMenuItem, "englishToolStripMenuItem");
             this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
+            resources.ApplyResources(this.englishToolStripMenuItem, "englishToolStripMenuItem");
             this.englishToolStripMenuItem.Click += new System.EventHandler(this.englishToolStripMenuItem_Click);
             // 
             // SchineseToolStripMenuItem
             // 
-            resources.ApplyResources(this.SchineseToolStripMenuItem, "SchineseToolStripMenuItem");
             this.SchineseToolStripMenuItem.Name = "SchineseToolStripMenuItem";
+            resources.ApplyResources(this.SchineseToolStripMenuItem, "SchineseToolStripMenuItem");
             this.SchineseToolStripMenuItem.Click += new System.EventHandler(this.SchineseToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem1
             // 
-            resources.ApplyResources(this.aboutToolStripMenuItem1, "aboutToolStripMenuItem1");
             this.aboutToolStripMenuItem1.Name = "aboutToolStripMenuItem1";
+            resources.ApplyResources(this.aboutToolStripMenuItem1, "aboutToolStripMenuItem1");
             this.aboutToolStripMenuItem1.Click += new System.EventHandler(this.aboutToolStripMenuItem1_Click);
             // 
             // label1
@@ -129,8 +129,8 @@
             // 
             // btnPreviewImg
             // 
-            resources.ApplyResources(this.btnPreviewImg, "btnPreviewImg");
             this.btnPreviewImg.BackgroundImage = global::SplaTU.Properties.Resources.tile_B;
+            resources.ApplyResources(this.btnPreviewImg, "btnPreviewImg");
             this.btnPreviewImg.ForeColor = System.Drawing.Color.SeaShell;
             this.btnPreviewImg.Image = global::SplaTU.Properties.Resources.icons8_PreviewPane_32;
             this.btnPreviewImg.Name = "btnPreviewImg";
@@ -139,8 +139,8 @@
             // 
             // btnRunTeensy
             // 
-            resources.ApplyResources(this.btnRunTeensy, "btnRunTeensy");
             this.btnRunTeensy.BackgroundImage = global::SplaTU.Properties.Resources.tile_R;
+            resources.ApplyResources(this.btnRunTeensy, "btnRunTeensy");
             this.btnRunTeensy.ForeColor = System.Drawing.Color.SeaShell;
             this.btnRunTeensy.Image = global::SplaTU.Properties.Resources.tpp_core;
             this.btnRunTeensy.Name = "btnRunTeensy";
@@ -149,8 +149,8 @@
             // 
             // btnGenerate
             // 
-            resources.ApplyResources(this.btnGenerate, "btnGenerate");
             this.btnGenerate.BackgroundImage = global::SplaTU.Properties.Resources.tile_O;
+            resources.ApplyResources(this.btnGenerate, "btnGenerate");
             this.btnGenerate.ForeColor = System.Drawing.Color.SeaShell;
             this.btnGenerate.Image = global::SplaTU.Properties.Resources.icons8_Resume_Button_32;
             this.btnGenerate.Name = "btnGenerate";
